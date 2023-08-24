@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.page-title {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.page-title h1 {
+    font-family: 'Black Ops One', cursive;
+}
+
+.sketch-buttons-div {
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mode {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 10px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid 1px; */
+}
+
+
+.random-color,
+.increase-button,
+.reset-button {
+    padding: 15px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.random-color:hover,
+.increase-button:hover,
+.reset-button:hover {
+    background-color: black; 
+    cursor: pointer;
+}
+
+
+
+
+/* .test {
+    flex-basis: 100px;
+    min-height: 100px;
+    border: solid 1px;
+} */
